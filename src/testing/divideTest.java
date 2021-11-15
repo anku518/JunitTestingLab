@@ -25,7 +25,7 @@ public class divideTest {
 	@Test(expected = ArithmeticException.class)
 	public void testDivisionReturnNegativeCase() {
 		JunitTesting test = new JunitTesting();
-		test.divide(10, 0);
+		test.divide(63, 0);
 	}
 
 }
